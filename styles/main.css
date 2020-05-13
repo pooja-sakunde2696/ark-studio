@@ -1,0 +1,259 @@
+.main{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.transparent_nav{
+  
+ 
+  opacity: 0.7;
+  background-color:rgba(255,255,255,0.78);
+
+}
+.nav_bar{
+    display: inline;
+    float: right;
+	 
+}
+#nav_list{
+    text-align: center;
+}
+.nav_bar li{
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+    padding:10px;
+
+}
+.nav_bar #nav_list li #nav_item_1{
+    text-decoration: none;
+    color: black;
+}
+.nav_bar #nav_list li #nav_item_2{
+  text-decoration: none;
+  color: black;
+}
+.nav_bar #nav_list li #nav_item_3{
+  text-decoration: none;
+  color: black;
+}
+.nav_bar #nav_list li #nav_item_4{
+  text-decoration: none;
+  color: black;
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  .cta{
+    
+    display: inline-block;
+    background-color:rgba(255,255,255,0.78);
+    margin-top: 430px;
+    padding-top: 20px;
+    height: 60px;
+    justify-items: right;
+    width: 1300px;
+} 
+
+.cta :hover{
+   height:20px;
+   width:auto;
+    background-color: aqua;
+
+}
+
+.cta #cta_link { 
+ 
+    justify-items: right;
+    margin-left:40%;
+    width: 200px; 
+    height: 5px;
+    background-color:rgb(13, 177, 241);
+    border:5px solid rgb(13, 177, 241);
+    color: white;
+    text-decoration: none;
+} 
+.cta #cta_text{
+    margin-left: 150px;
+    margin-right: 30px;
+}
+
+.cta #cta_header{
+    display: inline;
+} 
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    opacity: 0.7;
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 32px;
+    right: 16px;
+    opacity: 0.7;
+  }
+  /* .servicewrapper{
+    padding-left: 100px;
+    height: 600px;
+    width: 1000px;
+   
+    background-color: gray;
+  } */
+  .services_wrapper li{
+    padding-left: 50px;
+    padding-right: 50px;
+     text-align: center;
+     margin:10px;
+     padding: 10px;
+     font-size: 36px;
+     list-style-type: none;
+     width: 600px;
+ }
+ #flex{
+width:1200px;
+height:300px;
+display: flex;
+
+ }
+ 
+#flex div{
+  flex: 1;
+}
+.display{
+  height:500px;
+  width: 350px;
+}
+.recent_work{
+  height: 500px;
+  display: flex;
+   
+}
+.recent_work img{
+  flex: 1;
+}
+.testimonals wrapper{
+  text-align: center;
+  height: 500px;
+  width: 800px;
+  box-sizing: border-box;
+}
+.testimonals wrapper h1{
+  padding: 50px;
+  text-align: center;
+}
+.testimonals wrapper ul{
+  list-style-type: none;
+  display: inline;
+  text-decoration: none;
+  overflow: hidden;
+}
+.testimonals wrapper ul li{
+  padding:20px;
+  display: inline;
+  list-style-type:none;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+  flex: 1;
+}
+.testimonals wrapper img{
+  list-style-type: none;
+  border-radius: 50%;
+}
+.logowrapper{
+  padding: 0px;
+  margin: 0px;
+  height: 70px;
+  width: auto;
+  background-color: rgb(190,190,190);
+}
+.logowrapper ul{
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  float: right;
+  
+}
+.logowrapper ul li{
+  padding-left:80px;
+}
+.footer_widget{
+  height: 200px;
+background-color: rgb(36, 34, 34);
+padding-top: 0;
+
+}
+.box-2{
+float: left;
+width: 25%;
+text-align:center;
+list-style-type: none;
+color:#fff;
+text-decoration: none;
+background-color: rgb(36, 34, 34);
+
+}
+.box-2 #locations{
+  padding-top: 0px;
+  margin: 20px;
+}
+.box-2 #support{
+padding-top: 0px;
+  margin: 20px;
+}
+.box-2 #company{
+padding-top: 0px;   
+margin: 20px;
+}
+.box-2 #ark{
+padding-top: 0px;
+  margin:20px;
+}
+.box-2 #comp_list li{
+  text-decoration: none;
+  list-style: none;
+}
+.box-2 #comp_list li a{
+  text-decoration: none;
+  color: white;
+}
+.box-2 #sup_list li{
+  list-style: none;
+ 
+}
+.box-2 #sup_list li a{
+  text-decoration: none;
+  color: white;
+}
+.box-2 img{
+ margin-top:20px;
+}
+.box-2 #sup_list #sup_item_3{
+padding-bottom:31px;
+}
+.box-2 #comp_list #comp_item_4{
+padding-bottom: 14px;
+}
+.box-2 #ark-para{
+padding-bottom: 31px;
+}
+.clear{
+clear: both;
+}
+.rights{
+
+text-align:center;
+color: #fff;
+background-color: rgb(36, 34, 34);
+padding-left: 10px;
+padding-top: 40px;
+padding-bottom:20px;
+}
+
